@@ -16,11 +16,11 @@ module.exports = `<!DOCTYPE html>
         <nav>
             <ul class="navigation">
                 <li><a href="/">Home Page</a></li>
-                <li><a href="/cats/add-breed">Add Breed</a></li>
-                <li><a href="/cats/add-cat">Add Cat</a></li>
+                <li><a href="/cats/add-breed">Car Type</a></li>
+                <li><a href="/cats/add-cat">Add Car</a></li>
             </ul>
         </nav>
-        <h1>Cat Shelter</h1>
+        <h1>Cars</h1>
         <form action="/search">
             <input type="text">
             <button type="button">Search</button>
