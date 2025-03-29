@@ -3,6 +3,7 @@ const indexTemplate = require('./views/home/index.html');
 const siteCss = require('./content/styles/site.css');
 const addCarHtml = require('./views/addCar.html');
 const addTypeHtml = require('./views/addType.html');
+const editCarsHtml = require('./views/editCars.html')
 
 const port = 3000;
 
@@ -51,6 +52,9 @@ const server = http.createServer((req, res) => {
             break;
         case '/cars/add-type':
             res.write(addTypeHtml);
+            break;
+        case '/cars/edit-car':
+            res.write(editCarsHtml);
             break;
 
     }
